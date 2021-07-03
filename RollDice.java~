@@ -1,7 +1,10 @@
 import java.util.*;
 
 public class Intro{
-        System.out.println("What is your name?");
+    System.out.println("What is your name?");
+    Sccaner scan = new Sccaner(System.in);
+    String name = scan.next();
+    System.out.println("Hello."+name);
         
         
 

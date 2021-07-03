@@ -17,6 +17,9 @@ public class RollDice {
 		System.out.println("Die1 :"+dice1);
 		System.out.println("Die2 :"+dice2);
 		System.out.println("Total value :"+total);
+
+		if(total < 7) System.out.println("You won");
+		else System.out.println("You lost");
 		
 	}
 
